@@ -1,0 +1,11 @@
+package holamundo;
+
+public class coche {
+
+	public coche() {
+		System.out.println("Soy un coche muy rápido");
+		System.out.println("Nuevo cambio");
+	}
+
+	
+}

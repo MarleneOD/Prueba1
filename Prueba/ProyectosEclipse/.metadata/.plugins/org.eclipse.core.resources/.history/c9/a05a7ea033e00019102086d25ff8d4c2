@@ -1,0 +1,38 @@
+package instituto;
+
+/**
+ * @brief Clase Alumno que deriva de Persoa
+ * 
+ * Esta clase define a una persona que es alumno,
+ * la cual desciende de persona. En ella se crearan objetos
+ * que serán los alumnos del instituto
+ * 
+ * @author a16marleneod
+ *@version 1.0
+ *
+ */
+public class Alumno extends Persoa{
+
+	
+	static int numExpedienteActual = 0;
+	private int numExpediente;
+
+	/**
+	 * 
+	 * @param nome Atributo heredado de Persona
+	 * @param idade 
+	 */
+	public Alumno(String nome, int idade) {
+		super(nome, idade);
+		Alumno.numExpedienteActual++;
+		this.numExpediente = Alumno.numExpedienteActual;
+	}
+
+	public int getNumExpediente() {
+		return numExpediente;
+	}
+
+	public String toString() {
+		return "Alumno [numExpediente=" + numExpediente + ", nome=" + nome + ", idade=" + idade + "]";
+	}
+}

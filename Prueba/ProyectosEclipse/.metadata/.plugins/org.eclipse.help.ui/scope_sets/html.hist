@@ -1,0 +1,4 @@
+#Thu Sep 19 11:00:04 CEST 2019
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=html

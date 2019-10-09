@@ -1,0 +1,23 @@
+package holamundo;
+
+/**
+ * @brief clase para un coche
+ * 
+ * descripción larga
+ * 
+ * @author a16marleneod
+ *
+ */
+public class coche {
+
+	public coche() {
+		
+		/**
+		 * descripción del método
+		 */
+		System.out.println("Soy un coche muy rápido");
+		System.out.println("Nuevo cambio");
+	}
+
+	
+}
